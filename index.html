@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" async></script>
+    <title>Avengers Mind Game!</title>
+</head>
+
+<body>
+    <h1 class="page-title">Avengers Mind Game!</h1>
+    <div class="overlay-text visible">
+        Click to Start
+    </div>
+    <div id="game-over-text" class="overlay-text">
+        Thanos Snaps! Game Over !
+        <span class="overlay-text-small">Click to Restart</span>
+    </div>
+    <div id="victory-text" class="overlay-text">
+        VICTORY
+        <span class="overlay-text-small">Thanos Dies</span>
+    </div>
+
+    <div class="game-container">
+        <div class="game-info-container">
+            <div class="game-info">
+                Time: <span id="time-remaining">100</span>
+            </div>
+            <div class="game-info">
+                Flips: <span id="flips">0</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/Spiderman.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/IronMan.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/Hulk.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/CaptainMarvel.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/CaptainAmerica.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/BlackPanther.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/antman.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/Thor.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/Spiderman.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/IronMan.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/Hulk.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/CaptainMarvel.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/CaptainAmerica.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/BlackPanther.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/antman.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="Avengers" src="Assets/marvel-2/Images/Avengers.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Assets/marvel-2/Images/Thor.png">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
